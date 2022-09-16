@@ -44,6 +44,13 @@
 //  document.location.href = 'newurl.html';
 //}
     </script>
+    <script>
+      if(document.location.href.indexOf('http://') > -1) { 
+        // indexOf will return the position of the first occurence of this string in the url
+       // or -1 it it's not there.
+       document.location.href = 'https://skool.world';
+      }
+    </script>
     <div style="z-index:2">
         <h1 class="titlename">Sk<a class="hiddenlink" href="https://skoolcord.herokuapp.com/main/https://discord.com/login" target="_blank">o</a><a class="hiddenlink" href="https://skoolcord.herokuapp.com/main/https://hdtoday.ws/movies" target="_blank">o</a>l</h1>
     <!--<div id="factDisplay"></div>-->
