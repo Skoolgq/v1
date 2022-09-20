@@ -308,8 +308,9 @@ a:hover{
   border-radius: 19px;
   width: 19vw;
 }
-iframe{
+.iframe{
   display: block;
+  text-align: center;
   margin: 50px auto;
 }
 .gamesbackbutton{
