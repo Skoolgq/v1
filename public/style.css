@@ -313,6 +313,11 @@ a:hover{
   text-align: center;
   margin: 50px auto;
 }
+gameframe{
+  display: block;
+  text-align: center;
+  margin: 500px auto;
+}
 .gamesbackbutton{
   float: left;
   font-family: "Fredoka One";
