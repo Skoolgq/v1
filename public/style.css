@@ -240,9 +240,6 @@ button{
   overflow: hidden;
   box-shadow: 6px 6px #472790c0;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
 }
 
 .button:hover {background-color: #757cf5}
