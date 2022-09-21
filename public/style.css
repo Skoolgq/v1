@@ -239,6 +239,7 @@ button{
   border-color: #6a23db;
   overflow: hidden;
   box-shadow: 6px 6px #472790c0;
+  text-align: center;
 }
 
 .button:hover {background-color: #757cf5}
