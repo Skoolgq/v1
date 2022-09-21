@@ -266,13 +266,14 @@ menubutton{
   border-color: #6a23db;
   box-shadow: 6px 6px #472790c0;
   display: block;
+  position: relative;
   transition: .2s ease-in-out 0s;
 }
 
 .menubutton:hover {
   background-color: #757cf5
   cursor: pointer;
-  transform: scale(1.15);
+  transform: scale(1.05);
 
 }
 
