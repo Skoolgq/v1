@@ -249,6 +249,35 @@ button{
   overflow:visible;
   box-shadow: 7px 8px #472790c0;
 }
+
+
+
+
+menubutton{
+  font-size: 3vw;
+  font-family: "Fredoka One";
+  color: rgb(3, 22, 44);
+  border-radius: 1.63vw;
+  border-width: 0.6vw;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  background-color:   #5d63da;
+  border-style: outset;
+  border-color: #6a23db;
+  overflow: hidden;
+  box-shadow: 6px 6px #472790c0;
+  transition: .2s ease-in-out 0s;
+}
+
+.menubutton:hover {
+  background-color: #757cf5
+  cursor: pointer;
+  transform: scale(1.25);
+
+}
+
+
 div{
   text-align: center;
   font-family: "Fredoka One";
