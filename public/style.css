@@ -261,7 +261,6 @@ menubutton{
   border-width: 0.6vw;
   padding-left: 8px;
   padding-right: 8px;
-  position: relative;
   background-color:   #5d63da;
   border-style: outset;
   border-color: #6a23db;
@@ -273,7 +272,7 @@ menubutton{
 .menubutton:hover {
   background-color: #757cf5
   cursor: pointer;
-  transform: scale(1.25);
+  transform: scale(1.15);
 
 }
 
