@@ -233,13 +233,15 @@ button{
   border-width: 0.6vw;
   padding-left: 8px;
   padding-right: 8px;
-  position: absolute;
+  position: relative;
   background-color:   #5d63da;
   border-style: outset;
   border-color: #6a23db;
   overflow: hidden;
   box-shadow: 6px 6px #472790c0;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   align-items: center;
 }
 
