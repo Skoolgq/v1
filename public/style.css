@@ -277,6 +277,13 @@ menubutton{
 
 }
 
+.menubutton:active {
+  background-color: #757cf5;
+  transform: translateY(4px);
+  overflow:visible;
+  box-shadow: 7px 8px #472790c0;
+}
+
 
 div{
   text-align: center;
