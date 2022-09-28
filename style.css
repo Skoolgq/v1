@@ -34,7 +34,7 @@ p{
 }
 br{
   height: 1vh;
-  background-image: black;
+  background-image: white;
 }
 .gamepagebody{
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
@@ -204,7 +204,7 @@ br{
 titlename{
   font-family: "Fredoka One";
   font-size: 12vw;
-  color: rgb(16, 0, 37);
+  color: rgb(16, 0, 137);
   text-shadow: 8px 8px #5022b9c0;
   text-align: center;
 }
