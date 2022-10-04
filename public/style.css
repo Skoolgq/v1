@@ -67,7 +67,7 @@ br{
 .area{
     background: #4e54c8;  
     width: 100%;
-    height:100vh;
+    height:100%;
     overflow: visible;
    
 }
@@ -75,7 +75,7 @@ br{
 .areagames{
     background: #4e54c8;  
     width: 100%;
-    height:110vh;
+    height:110%;
     overflow: hidden;
     
    
