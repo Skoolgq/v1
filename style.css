@@ -67,9 +67,8 @@ br{
 .area{
     background: #4e54c8;  
     width: 100%;
-    height:150vw;
-    
-    
+    height:100%;
+    bottom: 0;
    
 }
 
