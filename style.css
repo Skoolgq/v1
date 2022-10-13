@@ -238,17 +238,19 @@ button{
   border-color: #6a23db;
   overflow: hidden;
   box-shadow: 6px 6px #472790c0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
-.button:hover {background-color: #757cf5}
+.button:hover {
+    background-color: #757cf5
+    transform: scale(0.9);
+}
 
 .button:active {
   background-color: #757cf5;
   transform: translateY(4px);
   overflow:visible;
   box-shadow: 5px 5px #472790c0;
-  transform: scale(0.8);
 }
 div{
   text-align: center;
