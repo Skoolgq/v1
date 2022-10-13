@@ -238,7 +238,7 @@ button{
   border-color: #6a23db;
   overflow: hidden;
   box-shadow: 6px 6px #472790c0;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.01s ease-in-out;
 }
 
 .button:hover {
