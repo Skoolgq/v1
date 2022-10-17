@@ -18,8 +18,10 @@ h2{
 }
 
 body {
-  margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
+  width: 100%;
+  height:100vh;
+  margin-top: 0px;
 }
 
 canvas {
