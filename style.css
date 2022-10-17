@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-
 *{
     margin: 0px;
     padding: 0px;
@@ -16,14 +15,10 @@ h2{
   border-radius: 26px;
   position: relative;
 }
-
 body {
+  margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
-  width: 100%;
-  height:100vh;
-  margin-top: 0px;
 }
-
 canvas {
   display: block;
   vertical-align: bottom;
@@ -58,24 +53,27 @@ br{
     position: absolute;
     top:50vh;
 }
-
-
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
 .area{
     background: #4e54c8;  
     width: 100%;
     height:100%;
     bottom: 0;
+    position: fixed;
    
 }
-
 .areagames{
     background: #4e54c8;  
     width: 100%;
-    height:100%;
+    height: 100%;
     bottom: 0;
+    position: fixed;
    
 }
-
 .circles{
     position: absolute;
     top: 0;
@@ -84,7 +82,6 @@ br{
     height: 100%;
     overflow: hidden;
 }
-
 .circles li{
     position: absolute;
     display: block;
@@ -96,15 +93,12 @@ br{
     bottom: 110%;
     
 }
-
 .circles li:nth-child(1){
     left: 25%;
     width: 80px;
     height: 80px;
     animation-delay: 0s;
 }
-
-
 .circles li:nth-child(2){
     left: 10%;
     width: 20px;
@@ -112,14 +106,12 @@ br{
     animation-delay: 2s;
     animation-duration: 12s;
 }
-
 .circles li:nth-child(3){
     left: 70%;
     width: 20px;
     height: 20px;
     animation-delay: 4s;
 }
-
 .circles li:nth-child(4){
     left: 40%;
     width: 60px;
@@ -127,28 +119,24 @@ br{
     animation-delay: 0s;
     animation-duration: 18s;
 }
-
 .circles li:nth-child(5){
     left: 65%;
     width: 20px;
     height: 20px;
     animation-delay: 0s;
 }
-
 .circles li:nth-child(6){
     left: 75%;
     width: 110px;
     height: 110px;
     animation-delay: 3s;
 }
-
 .circles li:nth-child(7){
     left: 35%;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
 }
-
 .circles li:nth-child(8){
     left: 50%;
     width: 25px;
@@ -156,7 +144,6 @@ br{
     animation-delay: 15s;
     animation-duration: 50s;
 }
-
 .circles li:nth-child(9){
     left: 20%;
     width: 15px;
@@ -164,7 +151,6 @@ br{
     animation-delay: 2s;
     animation-duration: 40s;
 }
-
 .circles li:nth-child(10){
     left: 85%;
     width: 150px;
@@ -172,34 +158,35 @@ br{
     animation-delay: 0s;
     animation-duration: 15s;
 }
-
-
-
 @keyframes animate {
-
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 0;
     }
-
     100%{
         transform: translateY(1000px) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
     }
-
 }
 .inlinebtn{
   display: inline;
 }
-
+}
+titlename{
+  font-family: "Fredoka One";
+  font-size: 10vw;
+  font-size: 15vw;
+  color: rgb(16, 0, 137);
+  text-shadow: 8px 8px #5022b9c0;
+  text-align: center;
 }
 h1{
   font-family: "Fredoka One";
+  font-size: 6vw;
   color: rgb(16, 0, 37);
-  font-size; 8vw;
-  text-shadow:#7d0da6 8px 8px;
+  text-shadow: 6px 6px #5022b9c0;
   text-align: center;
 }
 h3{
@@ -228,13 +215,11 @@ button{
   box-shadow: 6px 6px #472790c0;
   transition: all 0.01s ease-in-out;
 }
-
 .button:hover {
     background-color: #757cf5
     transform: scale(0.9);
     mouse: pointer;
 }
-
 .button:active {
   background-color: #757cf5;
   transform: translateY(4px);
@@ -277,6 +262,10 @@ a:hover{
   position: absolute;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+.youtubelink{
+  font-size: 3vw;
+  text-decoration: underline;
 }
 .gamelinksleft{
   font-size: 1.3vw;
@@ -331,7 +320,25 @@ iframe{
   color: white;
   display: table-cell;
 }
-
+.gameofthemonth{
+  font-size: 1.2vw;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  position: relative;
+}
+.gameofthemonthborder{
+  background-color: rgb(5, 29, 165, 0.700);
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  width: 26vw;
+  position: relative;
+}
+.monthlygame{
+  font-size: 2.3vw;
+  text-align: center;
+}
 .gamespurple{
   font-size: 1.3vw;
   text-align: center;
@@ -387,13 +394,11 @@ a:visited{
 #appsbutton {
   animation: border-color-change 5s infinite;
 }
-
 @keyframes border-color-change {
   0% { border-color: green; }
   50% { border-color: blue; }
   100% { border-color: green; }
 }
-
 .poll {
   width: 100px;
   height: 100px;
@@ -403,7 +408,6 @@ a:visited{
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
-
 @keyframes example {
   0%   {color:red;}
   25%  {color:yellow;}
@@ -415,7 +419,6 @@ a:visited{
   display: flex;
   position: relative;
 }
-
 .wrapper .sidebar{
   width: 200px;
   height: 100%;
@@ -423,30 +426,25 @@ a:visited{
   padding: 30px 0px;
   position: fixed;
 }
-
 .wrapper .sidebar h2{
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
 }
-
 .wrapper .sidebar ul li{
   padding: 15px;
   border-bottom: 1px solid #bdb8d7;
   border-bottom: 1px solid rgba(0,0,0,0.05);
   border-top: 1px solid rgba(255,255,255,0.05);
 }    
-
 .wrapper .sidebar ul li a{
   color: #bdb8d7;
   display: block;
 }
-
 .wrapper .sidebar ul li a .fas{
   width: 25px;
 }
-
 .wrapper .sidebar ul li:hover{
   background-color: #594f8d;
 }
@@ -462,7 +460,6 @@ a:visited{
   transform: translateX(-50%);
   display: flex;
 }
-
 .wrapper .sidebar .social_media a{
   display: block;
   width: 40px;
@@ -475,25 +472,21 @@ a:visited{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
 .wrapper .main_content{
   width: 100%;
   margin-left: 200px;
 }
-
 .wrapper .main_content .header{
   padding: 20px;
   background: #fff;
   color: #717171;
   border-bottom: 1px solid #e0e4e8;
 }
-
 .wrapper .main_content .info{
   margin: 20px;
   color: #717171;
   line-height: 25px;
 }
-
 .wrapper .main_content .info div{
   margin-bottom: 20px;
 }
