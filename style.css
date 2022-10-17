@@ -202,18 +202,10 @@ br{
 }
 
 }
-titlename{
-  font-family: "Fredoka One";
-  font-size: 15vw;
-  color: rgb(16, 0, 137);
-  text-shadow: 8px 8px #5022b9c0;
-  text-align: center;
-}
 h1{
   font-family: "Fredoka One";
-  font-size: 6vw;
   color: rgb(16, 0, 37);
-  text-shadow: 6px 6px #5022b9c0;
+  text-shadow: 8px 8px #5022b9c0;
   text-align: center;
 }
 h3{
@@ -292,10 +284,6 @@ a:hover{
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.youtubelink{
-  font-size: 3vw;
-  text-decoration: underline;
-}
 .gamelinksleft{
   font-size: 1.3vw;
   text-decoration: none;
@@ -349,28 +337,6 @@ iframe{
   color: white;
   display: table-cell;
 }
-
-
-.gameofthemonth{
-  font-size: 1.2vw;
-  color: white;
-  text-align: center;
-  bottom: 0;
-  position: relative;
-}
-.gameofthemonthborder{
-  background-color: rgb(5, 29, 165, 0.700);
-  display: inline-block;
-  margin: auto;
-  border-radius: 19px;
-  width: 26vw;
-  position: relative;
-}
-.monthlygame{
-  font-size: 2.3vw;
-  text-align: center;
-}
-
 
 .gamespurple{
   font-size: 1.3vw;
