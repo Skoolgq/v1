@@ -59,12 +59,6 @@ br{
     top:50vh;
 }
 
-.context h1{
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
-}
-
 
 .area{
     background: #4e54c8;  
@@ -205,7 +199,7 @@ h1{
   font-family: "Fredoka One";
   color: rgb(16, 0, 37);
   font-size; 8vw;
-  text-shadow: 8px 8px #7d0da6;
+  text-shadow:#7d0da6 8px 8px;
   text-align: center;
 }
 h3{
