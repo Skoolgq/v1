@@ -213,11 +213,11 @@ button{
   border-color: #6a23db;
   overflow: hidden;
   box-shadow: 6px 6px #472790c0;
-  transition: all 0.01s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 .button:hover {
     background-color: #757cf5
-    transform: scale(0.9);
+    transform: scale(0.8);
     mouse: pointer;
 }
 .button:active {
