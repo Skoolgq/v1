@@ -416,10 +416,14 @@ a:visited{
   100% {color:red;}
 }
 .container {
+  display: flex;
+  Justify-content: Center;
   position: relative;
   overflow: hidden;
   width: 70%;
-  padding-top: 39.375%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 40%;
+  border: 2vw solid black;
+  border-radius: 1vw;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
