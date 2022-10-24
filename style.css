@@ -217,7 +217,7 @@ button{
 }
 .button:hover {
     background-color: #757cf5;
-    transform: scale(0.8);
+    transform: scale(0.9);
     cursor: pointer;
 }
 .button:active {
