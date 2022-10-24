@@ -217,8 +217,9 @@ button{
 }
 .button:hover {
     background-color: #757cf5;
-    transform: scale(0.9);
+    transform: scale(0.95);
     cursor: pointer;
+    box-shadow: 7px 7px #472790c0;
 }
 .button:active {
   background-color: #757cf5;
