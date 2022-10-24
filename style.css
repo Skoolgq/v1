@@ -216,9 +216,9 @@ button{
   transition: all 0.1s ease-in-out;
 }
 .button:hover {
-    background-color: #757cf5
+    background-color: #757cf5;
     transform: scale(0.8);
-    mouse: pointer;
+    cursor: pointer;
 }
 .button:active {
   background-color: #757cf5;
