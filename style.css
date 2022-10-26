@@ -222,7 +222,6 @@ button{
 }
 .button:active {
   background-color: #757cf5;
-  transform: translateY(4px);
   overflow:visible;
   box-shadow: 5px 5px #472790c0;
 }
