@@ -221,6 +221,7 @@ button{
     cursor: pointer;
 }
 .button:active {
+  transform: scale(1.0);
   background-color: #757cf5;
   overflow:visible;
   box-shadow: 5px 5px #472790c0;
