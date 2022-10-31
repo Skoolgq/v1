@@ -181,6 +181,7 @@ titlename{
   color: rgb(16, 0, 137);
   text-shadow: 8px 8px #5022b9c0;
   text-align: center;
+  z-index:3;
 }
 h1{
   font-family: "Fredoka One";
@@ -188,6 +189,7 @@ h1{
   color: rgb(16, 0, 37);
   text-shadow: 6px 6px #5022b9c0;
   text-align: center;
+  z-index:3;
 }
 h3{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
