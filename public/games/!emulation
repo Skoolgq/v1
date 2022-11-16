@@ -1,0 +1,48 @@
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Google Docs</title>
+<link href="/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+  </head>
+  <body class="gamepagebody">
+    <div class="gamesheader">
+      <button class = "button" onclick="location.href='/public/games/main.html'">Back</button>
+      <!--using precentages so scaling works properly on different resolutions!-->
+    </div>
+    <br>
+    <div style= "z-index:2">
+    <h1 style="font-size: 6vw;">Apps</h1>
+    </div>
+    <div class="gamelinksleft">
+    <p class="newgamestitle">Popular</p>
+    </div>
+    <div class="gamelinksright">
+    <p class="newgamestitle">Other</p>
+    </div>
+    <br>
+    <br>
+    <div class="newgames">
+    <p class="newgamestitle">New Games</p>
+    <a href="https://dl.dropboxusercontent.com/s/xq0op0c8v0dhbgh/THPS.html?dl=0">Tony Hawk's Pro Skater (open file)</a>
+    </div>
+    <br>
+  </div>
+</body>
+</html>
