@@ -238,6 +238,7 @@ div{
 otherbuttonheader{
   margin-left:auto;
   display:block;
+  text-align: right;
   margin-right: 0;
 }
 
@@ -319,7 +320,6 @@ iframe{
   background-color: #4e54c8; 
 }
 .gamesheader{
-  display: table;
   background-color:#4e54c8;
 }
 .gamesenjoy{
