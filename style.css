@@ -235,6 +235,14 @@ div{
   position: relative;
   overflow:visible
 }
+otherbuttonheader{
+  text-align: right;
+  font-family: "Fredoka One";
+  text-decoration: none;
+  position: relative;
+  overflow:visible
+}
+
 a:link{
   text-align: center;
   text-decoration: none;
