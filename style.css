@@ -235,13 +235,6 @@ div{
   position: relative;
   overflow:visible
 }
-otherbuttonheader{
-  margin-left:auto;
-  display:block;
-  text-align: right;
-  margin-right: 0;
-}
-
 a:link{
   text-align: center;
   text-decoration: none;
@@ -321,6 +314,7 @@ iframe{
 }
 .gamesheader{
   background-color:#4e54c8;
+  display: table;
 }
 .gamesenjoy{
   font-size: 2.3vw;
