@@ -236,14 +236,9 @@ div{
   overflow:visible
 }
 otherbuttonheader{
-  text-align: right;
-  justify-content: right;
-  font-family: "Fredoka One";
-  text-decoration: none;
-  position: static;
-  left: 30px;
-  overflow:visible;
-  align: right;
+  margin-left:auto;
+  display:block;
+  margin-right: 0;
 }
 
 a:link{
