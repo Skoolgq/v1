@@ -240,7 +240,7 @@ otherbuttonheader{
   justify-content: right;
   font-family: "Fredoka One";
   text-decoration: none;
-  position: relative;
+  position: static;
   left: 30px;
   overflow:visible;
   align: right;
