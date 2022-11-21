@@ -237,11 +237,12 @@ div{
 }
 otherbuttonheader{
   text-align: right;
+  justify-content: right;
   font-family: "Fredoka One";
   text-decoration: none;
   position: relative;
   overflow:visible;
-  margin-right:1000;
+  align: right;
 }
 
 a:link{
