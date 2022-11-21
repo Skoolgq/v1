@@ -240,7 +240,8 @@ otherbuttonheader{
   font-family: "Fredoka One";
   text-decoration: none;
   position: relative;
-  overflow:visible
+  overflow:visible;
+  margin-left:100;
 }
 
 a:link{
