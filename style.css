@@ -241,6 +241,7 @@ otherbuttonheader{
   font-family: "Fredoka One";
   text-decoration: none;
   position: relative;
+  left: 30px;
   overflow:visible;
   align: right;
 }
