@@ -1,3 +1,4 @@
+[back](/public)
 # Select a server
 [Server 1](https://minecraft.skool.world)
 
