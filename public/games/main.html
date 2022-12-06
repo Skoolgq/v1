@@ -22,8 +22,6 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">
   </head>
   <body class="gamepagebody">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="dcCopy.js"></script>
     <div class="gamesheader">
       <button class = "button" style="text-align: left;" onclick="location.href='/public/index.html'">Back</button>
       <button class = "button" style="text-align: right; left:80.5vw;" onclick="location.href='/public/games/!othergames.html'">More</button>
@@ -68,7 +66,7 @@
     <br>
     <a href="https://simplemathisfun.herokuapp.com/main/https://twitch.tv" target="_blank">Twitch</a>
     <br>
-    <a id="myText" onclick="copyContent()">Discord</a><noscript>You need Javascript to use the previous link or use <a href="https://simplemathisfun.herokuapp.com/main/https://discord.com/login" target="_blank">Discord</a></noscript>
+    <button class="clipboard">Click me to copy current Url</button>
     <br>
     <a href="https://simplemathisfun.herokuapp.com/main/https://reddit.com/account/login" target="_blank">Reddit</a>
     </div>
@@ -93,5 +91,7 @@
     <br>
     <button style="text-align: center;" class="button" onclick="location.href='!emulation.html'">Emulation</button>
   </div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="dcCopy.js"></script>
 </body>
 </html>
