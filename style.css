@@ -322,25 +322,6 @@ iframe{
   color: white;
   display: table-cell;
 }
-.gameofthemonth{
-  font-size: 1.2vw;
-  color: white;
-  text-align: center;
-  bottom: 0;
-  position: relative;
-}
-.gameofthemonthborder{
-  background-color: rgb(5, 29, 165, 0.700);
-  display: inline-block;
-  margin: auto;
-  border-radius: 19px;
-  width: 26vw;
-  position: relative;
-}
-.monthlygame{
-  font-size: 2.3vw;
-  text-align: center;
-}
 .gamespurple{
   font-size: 1.3vw;
   text-align: center;
@@ -410,10 +391,22 @@ a:visited{
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
+.allgameslink {
+  width: 150px;
+  height: 150px;
+  color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
 @keyframes example {
   0%   {color:red;}
+  12.5%   {color:orange;}
   25%  {color:yellow;}
+  37.5%  {color:green;}
   50%  {color:blue;}
-  75%  {color:green;}
+  62.5%  {color:purple;}
+  75%  {color:pink;}
   100% {color:red;}
 }
