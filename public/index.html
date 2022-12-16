@@ -25,6 +25,14 @@
 crossorigin="anonymous"></script>
   </head>
     <body>
+    <script>
+     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )     
+{
+   var url = "https://m.skool.world/";    
+   $(location).attr('href',url);
+
+}
+    </script>
     <script src="script.js"></script>
     <script>
  //     if ( window.location !== window.parent.location ) {
