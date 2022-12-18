@@ -14,6 +14,7 @@
 * https://mathhomework.netlify.app/
 * https://skool-world.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp
 
-Fork this repo to deploy your own unblocked version. 
+Fork this repo to deploy your own unblocked version.
 
-**[YOU MAY NOT TAKE CREDIT FOR DEVELOPING THE SITE, OR WE WILL FILE A DMCA TAKEDOWN.]**
+[in accordance with the license we are using, you may not use any of our code in a closed-source manner]
+
