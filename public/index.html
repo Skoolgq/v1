@@ -14,6 +14,19 @@
             </ul>
 <html>
   <head>
+    <!-- 2 detect scripts for redundancy -->
+    <script type="text/javascript">
+    if (screen.width <= 699) {
+    document.location = "https://m.skool.world/";
+    }
+    </script>
+    <script>
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )     
+    {
+    var url = "https://m.skool.world/";    
+    $(location).attr('href',url);
+    }  
+    </script>
     <script src="https://cdn.counter.dev/script.js" data-id="b0b2d4b2-daca-47e1-9287-b9e649b3dcd2" data-utcoffset="-4"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -25,13 +38,6 @@
 crossorigin="anonymous"></script>
   </head>
     <body>
-    <script>
-     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )     
-{
-   var url = "https://m.skool.world/";    
-   $(location).attr('href',url);
-
-}
     </script>
     <script src="script.js"></script>
     <script>
