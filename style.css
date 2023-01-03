@@ -59,8 +59,8 @@ br{
     font-size: 50px;
 }
 .area{
-    /*background: #4e54c8;  */
-    background-image: url("colorbackground.gif");
+    background: #4e54c8;
+    /*background-image: url("colorbackground.gif");
     /*background-size: 200%;*/
     width: 200vw;
     height:200vh;
