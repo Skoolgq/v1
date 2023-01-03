@@ -61,6 +61,7 @@ br{
 .area{
     /*background: #4e54c8;  */
     background-image: url("colorbackground.gif");
+    background-size: 100%;
     width: 100%;
     height:100vh;
     bottom: 0;
