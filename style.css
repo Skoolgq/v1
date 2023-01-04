@@ -57,7 +57,7 @@ br{
 }
 .area{
     /*background: #4e54c8; */
-    background: url(colorbackground.gif);
+    background: url(backgrounds/skoolbackground.gif);
     background-size: 100%;
     width: 100%;
     height:100vh;
