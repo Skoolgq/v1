@@ -316,12 +316,20 @@ iframe{
   background-color:#4e54c8;
   display: table;
 }
-.gamesenjoy{
-  font-size: 2.3vw;
+/*giveaway section*/
+.gamesgiveaway{
   text-align: center;
   color: white;
   display: table-cell;
 }
+hgiveaway{
+  font-family: "Fredoka One";
+  font-size: 5vw;
+  color: rgb(16, 0, 37);
+  text-shadow: 6px 6px #5022b9c0;
+  text-align: center;
+}
+/*end*/
 .gamespurple{
   font-size: 1.3vw;
   text-align: center;
