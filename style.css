@@ -4,9 +4,6 @@
     margin: 0px;
     padding: 0px;
 }
-h2{
-  font-size: 4vw;
-}
 .homepagelinks{
   background: rgb(1, 14, 9);
   font-size: 1.9vw;
@@ -191,6 +188,11 @@ h1{
   text-shadow: 6px 6px #5022b9c0;
   text-align: center;
 }
+h2{
+  font-family: "Fredoka One";
+  font-size: 4vw;
+  text-align: center;
+}
 h3{
   font-family: "Fredoka One";
   text-align: center;
@@ -316,12 +318,34 @@ iframe{
   background-color:#4e54c8;
   display: table;
 }
-.gamesenjoy{
-  font-size: 2.3vw;
+
+/*giveaway section*/
+
+.gamesgiveaway{
+  text-decoration: none;
+  background-color: rgb(5, 29, 165, 0.700);
   text-align: center;
-  color: white;
-  display: table-cell;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  width: 19vw;
+  font-family: "Fredoka One";
 }
+hgiveaway{
+  font-family: "Fredoka One";
+  font-size: 3.5vw;
+  color: white;
+  text-align: center;
+}
+hgive{
+  font-family: "Fredoka One";
+  font-size: 1.3vw;
+  color: white;
+  text-align: center;
+}
+
+/*end*/
+
 .gamespurple{
   font-size: 1.3vw;
   text-align: center;
