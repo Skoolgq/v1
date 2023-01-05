@@ -215,7 +215,7 @@ button{
   padding-right: 8px;
   position: relative;
   /*background-color:   #5d63da;*/
-  background-color:   #b847de;
+  background-color:   #a34ebf;
   border-style: outset;
   /*border-color: #6a23db;*/
   border-color: #b537b8;
@@ -224,13 +224,13 @@ button{
   transition: all 0.1s ease-in-out;
 }
 .button:hover {
-    background-color: #757cf5;
+    background-color: #c65fe8;
     transform: scale(0.95);
     cursor: pointer;
 }
 .button:active {
   transform: scale(1.0);
-  background-color: #757cf5;
+  background-color: #c65fe8;
   overflow:visible;
   box-shadow: 5px 5px #472790c0;
 }
