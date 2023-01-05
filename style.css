@@ -268,7 +268,7 @@ a:hover{
 .gamelinksleft{
   font-size: 1.3vw;
   text-decoration: none;
-  background-color: rgba(141, 43, 143, 0.700);
+  background-color: rgba(166, 29, 168, 0.700);
   float: left;
   left: 9vw;
   border-radius: 19px;
@@ -277,7 +277,7 @@ a:hover{
 .gamelinksright{
   font-size: 1.3vw;
   text-decoration: none;
-  background-color: rgb(141, 43, 143, 0.700);
+  background-color: rgb(166, 29, 168, 0.700);
   float: right;
   right: 9vw;
   border-radius: 19px;
@@ -286,7 +286,7 @@ a:hover{
 .newgames{
   font-size: 1.3vw;
   text-decoration: none;
-  background-color: rgb(141, 43, 143, 0.700);
+  background-color: rgb(166, 29, 168, 0.700);
   text-align: center;
   display: inline-block;
   margin: auto;
