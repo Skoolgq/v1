@@ -268,7 +268,7 @@ a:hover{
 .gamelinksleft{
   font-size: 1.3vw;
   text-decoration: none;
-  background-color: rgba(5, 29, 165, 0.700);
+  background-color: rgba(141, 43, 143, 0.700);
   float: left;
   left: 9vw;
   border-radius: 19px;
@@ -277,9 +277,19 @@ a:hover{
 .gamelinksright{
   font-size: 1.3vw;
   text-decoration: none;
-  background-color: rgb(5, 29, 165, 0.700);
+  background-color: rgb(141, 43, 143, 0.700);
   float: right;
   right: 9vw;
+  border-radius: 19px;
+  width: 19vw;
+}
+.newgames{
+  font-size: 1.3vw;
+  text-decoration: none;
+  background-color: rgb(141, 43, 143, 0.700);
+  text-align: center;
+  display: inline-block;
+  margin: auto;
   border-radius: 19px;
   width: 19vw;
 }
@@ -343,16 +353,6 @@ hgive{
   text-align: center;
   font-family: "Fredoka One"
   
-}
-.newgames{
-  font-size: 1.35vw;
-  text-decoration: none;
-  background-color: rgb(5, 29, 165, 0.700);
-  text-align: center;
-  display: inline-block;
-  margin: auto;
-  border-radius: 19px;
-  width: 19vw;
 }
 .head{
   margin: 0;
