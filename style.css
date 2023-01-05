@@ -216,7 +216,8 @@ button{
   position: relative;
   background-color:   #5d63da;
   border-style: outset;
-  border-color: #6a23db;
+  /*border-color: #6a23db;*/
+  border-color: #9a289e;
   overflow: hidden;
   box-shadow: 6px 6px #472790c0;
   transition: all 0.1s ease-in-out;
