@@ -7,7 +7,9 @@
 </head>
 <body>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<button onclick="chooseBackground()">Choose Background</button>
 <script>
+function chooseBackground{
 Swal.fire({
   title: '<strong>Choose a <u>background</u></strong>',
   icon: 'info',
@@ -18,14 +20,9 @@ Swal.fire({
     '<option value="url(/colorbackground.gif)">Rainbow</option>' +
     '<option value="url(/backgrounds/default.png)">Original</option>' +
   '</select>'
-})
+  })
+}
 </script>
-<select name="colors" onchange="changeColor(this)">
-  <option value="">Choose one</option>
-  <option value="url(/backgrounds/skoolbackground.gif)">Sunset</option>
-  <option value="url(/colorbackground.gif)">Rainbow</option>
-  <option value="url(/backgrounds/default.png)">Original</option>
-</select>
 <script>
 function changeColor(event) {
   var color = event.value;
