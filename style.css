@@ -269,7 +269,7 @@ a:hover{
 .gamelinksleft{
   font-size: 1.3vw;
   text-decoration: none;
-  background-color: rgba(166, 29, 168, 0.700);
+  background-color: rgb(166, 29, 168, 0.700);
   float: left;
   left: 9vw;
   border-radius: 19px;
@@ -320,7 +320,7 @@ iframe{
 
 .gamesgiveaway{
   text-decoration: none;
-  background-color: rgb(5, 29, 165, 0.700);
+  background-color: rgb(166, 29, 168, 0.700);
   text-align: center;
   display: inline-block;
   margin: auto;
@@ -330,13 +330,13 @@ iframe{
 }
 hgiveaway{
   font-family: "Fredoka One";
-  font-size: 3.5vw;
+  font-size: 2.7vw;
   color: white;
   text-align: center;
 }
 hgive{
   font-family: "Fredoka One";
-  font-size: 1.3vw;
+  font-size: 1.0vw;
   color: white;
   text-align: center;
 }
