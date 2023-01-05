@@ -178,7 +178,7 @@ titlename{
   font-family: "Fredoka One";
   font-size: 8vw;
   color: rgb(16, 0, 137);
-  text-shadow: 8px 8px #5022b9c0;
+  text-shadow: 8px 8px #472790c0;
   text-align: center;
   position: relative;
   z-index: 6;
@@ -186,7 +186,7 @@ titlename{
 h1{
   font-family: "Fredoka One";
   font-size: 8vw;
-  color: rgb(16, 0, 37);
+  color: rgb(16, 0, 137);
   text-shadow: 6px 6px #5022b9c0;
   text-align: center;
 }
@@ -208,7 +208,7 @@ h6{
 button{
   font-size: 3vw;
   font-family: "Fredoka One";
-  color: rgb(3, 22, 44);
+  color: rgb(16, 0, 137);
   border-radius: 1.63vw;
   border-width: 0.6vw;
   padding-left: 8px;
