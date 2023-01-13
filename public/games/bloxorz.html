@@ -16,21 +16,15 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
 </head>
-<style>
-    #wrap { width: 600px; height: 390px; padding: 0; overflow: hidden; }
-    #frame { width: 800px; height: 520px; border: 1px solid black; }
-    #frame {
-        -ms-zoom: 0.67;
-        -moz-transform: scale(0.67);
-        -moz-transform-origin: 0 0;
-        -o-transform: scale(0.67);
-        -o-transform-origin: 0 0;
-        -webkit-transform: scale(0.67);
-        -webkit-transform-origin: 0 0;
-    }
-</style>
+<script>
+      if(document.location.href.indexOf('school') > -1) { 
+        // indexOf will return the position of the first occurence of this string in the url
+       // or -1 it it's not there.
+       document.location.href = 'http://skool.gq/newurl.html';
+      }
+    </script>
 <div class="gamesbackbutton">
       <button  class = "button"    onclick="location.href='main.html'">Back</button>
 </div>
 <br>
-<iframe style="position: absolute; border: 2vw solid black; border-radius: 1vw;" id="frame" scrolling="no" frameborder="0" width="85%" height="75%" cellspacing="0" src="https://skoolgq.github.io/flashgamedump/bloxorz.html" ></iframe>
+<iframe style="left: 100; position: absolute; border: 2vw solid black; border-radius: 1vw;" frameborder="0" width="85%" height="75%" cellspacing="0" src="https://skoolgq.github.io/flashgamedump/bloxorz.html" ></iframe>
